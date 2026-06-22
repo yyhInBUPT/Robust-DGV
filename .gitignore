@@ -1,0 +1,47 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local/editor files
+.DS_Store
+.idea/
+.vscode/
+.agents/
+.codex/
+
+# Experiment outputs
+result/
+robust_grn/result/
+experiments/
+*.log
+*.out
+*.err
+nohup.out
+
+# Checkpoints and model artifacts
+robust_grn/pretrained/
+pretrained/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+
+# Datasets and generated data artifacts
+robust_grn/dataset/
+robust_grn/ppi/
+*.npy
+*.npz
+
+# Figures generated from experiments
+*.png
+*.pdf
+*.svg
+
+# Local sync / machine-specific files
+tools/.sync_*
+*.local
